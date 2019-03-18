@@ -1,0 +1,37 @@
+{
+  "name": "redis-streaming-data",
+  "version": "1.0.0",
+  "description": "Use redis server to store and fetch data",
+  "main": "redisDemo.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.3.4",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0"
+  },
+  "scripts": {
+    "start": "cls && node redisDemo.js",
+    "server": "cls && Redis-modules\\redis-server.exe",
+    "client": "cls && Redis-modules\\redis-cli.exe",
+    "writer": "cls && node start-writer.js",
+    "reader": "cls && node start-reader.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel --presets es2015 -d lib/ src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThanhNhan776/redis-streaming-data.git"
+  },
+  "author": "NhanTT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThanhNhan776/redis-streaming-data/issues"
+  },
+  "homepage": "https://github.com/ThanhNhan776/redis-streaming-data#readme"
+}
