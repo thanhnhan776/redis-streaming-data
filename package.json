@@ -4,7 +4,7 @@
   "description": "Use redis server to store and fetch data",
   "main": "redisDemo.js",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "express": "^4.16.4",
     "redis": "^2.8.0"
   },
